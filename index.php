@@ -7,6 +7,7 @@
     }
         if(isset($_POST['login']))
     {
+        //dsldf
     $uname=$_POST['username'];
     $password=md5($_POST['password']);
     $sql ="SELECT UserName,Password FROM admin WHERE UserName=:uname and Password=:password";
